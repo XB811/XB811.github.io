@@ -588,23 +588,16 @@
 
 
 
-    <div id="comments"></div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-
-<script src="/js/gitment.js"></script>
-
-<script>
-    var gitment = new Gitment({
-        id: 'http://example.com/2023/10/19/python-homework07/', // 可选。默认为 location.href
-        owner: 'XB811',
-        repo: 'XB811.github.io',
-        oauth: {
-            client_id: '9b1a23dfbf6dc04985ce',
-            client_secret: '73dfaab22cd9228d5367acdde044dfd313b82115',
-        },
-    })
-    gitment.render('comments')
-</script>
+    <div id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="XB811/XB811.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            label="Comment"
+            crossorigin="anonymous"
+            async>
+    </script>
+</div>
 
 
 
