@@ -39,8 +39,6 @@
 
 
 
-<script src="//cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js" ></script>
-
 <script src="/js/iconfont.js?v=1.1.0" ></script>
 
 <meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="X's blog" type="application/atom+xml">
@@ -453,23 +451,21 @@
         
         
     <div id="comments"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
 
-<script type="text/javascript">
-    $.getScript('/js/gitalk.js', function () {
-        var gitalk = new Gitalk({
-            clientID: '9b1a23dfbf6dc04985ce',
-            clientSecret: '73dfaab22cd9228d5367acdde044dfd313b82115',
-            repo: 'XB811.github.io',
-            owner: 'XB811',
-            admin: ['XB811'],
-            id: decodeURI(location.pathname),
-            distractionFreeMode: 'true',
-            language: 'zh-CN',
-            perPage: parseInt('10',10)
-        })
-        gitalk.render('comments')
+<script src="/js/gitment.js"></script>
+
+<script>
+    var gitment = new Gitment({
+        id: 'http://example.com/', // 可选。默认为 location.href
+        owner: 'XB811',
+        repo: 'XB811.github.io',
+        oauth: {
+            client_id: '9b1a23dfbf6dc04985ce',
+            client_secret: '73dfaab22cd9228d5367acdde044dfd313b82115',
+        },
     })
+    gitment.render('comments')
 </script>
 
 
