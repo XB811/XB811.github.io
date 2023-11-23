@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>test</title>
+      <title>下载功能测试</title>
       <link href="/2023/11/23/test/"/>
       <url>/2023/11/23/test/</url>
       
-        <content type="html"><![CDATA[<p><a hefa="/download/test.txt" download>test</a></p>]]></content>
+        <content type="html"><![CDATA[<p><a href="/download/test.txt" download>test</a></p>]]></content>
       
       
       
