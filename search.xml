@@ -62,24 +62,11 @@
     
     
     <entry>
-      <title>test</title>
-      <link href="/2023/11/23/test-1/"/>
-      <url>/2023/11/23/test-1/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>下载功能测试</title>
       <link href="/2023/11/23/test/"/>
       <url>/2023/11/23/test/</url>
       
-        <content type="html"><![CDATA[<p><a href="/download/test.txt" download>test</a></p>]]></content>
+        <content type="html"><![CDATA[<p><a href="/download/test.txt" download="test.txt">test</a></p>]]></content>
       
       
       

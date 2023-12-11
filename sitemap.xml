@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/11/23/test/</loc>
+    
+    <lastmod>2023-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/12/11/python%E5%AE%9E%E9%AA%8C2/</loc>
     
     <lastmod>2023-12-11</lastmod>
@@ -20,25 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/11/23/test-1/</loc>
-    
-    <lastmod>2023-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2023/11/22/python-homework08/</loc>
-    
-    <lastmod>2023-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/11/23/test/</loc>
     
     <lastmod>2023-11-23</lastmod>
     

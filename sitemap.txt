@@ -1,8 +1,7 @@
+http://example.com/2023/11/23/test/
 http://example.com/2023/12/11/python%E5%AE%9E%E9%AA%8C2/
 http://example.com/2023/12/11/python%E5%AE%9E%E9%AA%8C1/
-http://example.com/2023/11/23/test-1/
 http://example.com/2023/11/22/python-homework08/
-http://example.com/2023/11/23/test/
 http://example.com/about/index.html
 http://example.com/2023/11/04/hello-world/
 http://example.com/2023/10/19/python-homework07/
