@@ -510,7 +510,7 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2024-01-15 07:22:35'>2023-09-08 23:34</time>
+            发布时间 : <time class="date" title='最后更新: 2024-01-15 07:25:59'>2023-09-08 23:34</time>
         
     </div>
     <div class="article-meta">
@@ -591,25 +591,25 @@
 <p>分析：主要考察集合set<br>set()  创建空集合<br>set.add()  添加新元素</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">list</span> = [<span class="number">12</span>,<span class="number">24</span>,<span class="number">35</span>,<span class="number">24</span>,<span class="number">88</span>,<span class="number">120</span>,<span class="number">155</span>,<span class="number">88</span>,<span class="number">120</span>,<span class="number">155</span>]</span><br><span class="line">s = <span class="built_in">set</span>()</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">list</span>:</span><br><span class="line">    s.add(i)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> s:</span><br><span class="line">    <span class="built_in">print</span>(i , end=<span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
 
-<p>运行截图：<br><img src="http://qnimg.xblog1.top/img/img_6.png" alt="img_6"></p>
+<p>运行截图：<br><img src="http://qnimg.xblog1.top/typora/image-20240115072459048.png" alt="image-20240115072459048"></p>
 <h3 id="8"><a href="#8" class="headerlink" title="8"></a>8</h3><p> By using list comprehension, please write a program to print the list<br>after removing the value 24 in [12,24,35,24,88,120,155].</p>
 <p>Use list’s remove method to delete a value</p>
 <p>分析：<br>s1 &amp;&#x3D;s2 相当于 s1&#x3D; s1&amp;s2 即取s1和s2的交集并赋给s1</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">s1 = &#123;<span class="number">1</span>,<span class="number">3</span>,<span class="number">6</span>,<span class="number">78</span>,<span class="number">35</span>,<span class="number">55</span>&#125;</span><br><span class="line">s2 = &#123;<span class="number">12</span>,<span class="number">24</span>,<span class="number">35</span>,<span class="number">24</span>,<span class="number">88</span>,<span class="number">120</span>,<span class="number">155</span>&#125;</span><br><span class="line">s1 &amp;= s2</span><br><span class="line">li =<span class="built_in">list</span>(s1)</span><br><span class="line"><span class="built_in">print</span>(li)</span><br></pre></td></tr></table></figure>
 
-<p>运行截图：<br><img src="http://qnimg.xblog1.top/img/img_7.png" alt="img_7"></p>
+<p>运行截图：<br><img src="http://qnimg.xblog1.top/typora/image-20240115072516364.png" alt="image-20240115072516364"></p>
 <h3 id="9"><a href="#9" class="headerlink" title="9"></a>9</h3><p>By using list comprehension, please write a program to print the list<br>after removing the value 24 in [12,24,35,24,88,120,155].</p>
 <p>Use list’s remove method to delete a value.<br>分析：使用del删除第二个元素即24</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">li = [<span class="number">12</span>,<span class="number">24</span>,<span class="number">35</span>,<span class="number">24</span>,<span class="number">88</span>,<span class="number">120</span>,<span class="number">155</span>]</span><br><span class="line"><span class="keyword">del</span> li[<span class="number">1</span>] <span class="comment">#删除24</span></span><br><span class="line"><span class="built_in">print</span>(li)</span><br></pre></td></tr></table></figure>
 
-<p>运行截图：<br><img src="http://qnimg.xblog1.top/img/img_8.png" alt="img_8"></p>
+<p>运行截图：<br><img src="http://qnimg.xblog1.top/typora/image-20240115072534648.png" alt="image-20240115072534648"></p>
 <h3 id="10"><a href="#10" class="headerlink" title="10"></a>10</h3><p>By using list comprehension, please write a program to print the list<br>after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].</p>
 <p>Use list comprehension to delete a bunch of element from a<br>list.<br>Use enumerate() to get (index, value) tuple.</p>
 <p>分析：主要考察推导式和enumerate() 函数<br>enumerate() 函数用于将一个可遍历的数据对象(如列表、元组或字符串)组合为一个索引序列，同时列出数据和数据下标，一般用在 for 循环当中。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">li = [<span class="number">12</span>,<span class="number">24</span>,<span class="number">35</span>,<span class="number">70</span>,<span class="number">88</span>,<span class="number">120</span>,<span class="number">155</span>]</span><br><span class="line">li = [x <span class="keyword">for</span> (i,x) <span class="keyword">in</span> <span class="built_in">enumerate</span>(li) <span class="keyword">if</span> i <span class="keyword">not</span> <span class="keyword">in</span> (<span class="number">0</span>,<span class="number">4</span>,<span class="number">5</span>)]</span><br><span class="line"><span class="built_in">print</span>(li)</span><br></pre></td></tr></table></figure>
 
 <p>运行截图：</p>
-<p><img src="http://qnimg.xblog1.top/img/img_9.png" alt="img_9"></p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20240115072557011.png" alt="image-20240115072557011"></p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论 </span>
