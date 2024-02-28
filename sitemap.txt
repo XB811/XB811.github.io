@@ -1,3 +1,4 @@
+http://example.com/2024/02/28/java%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/
 http://example.com/2023/09/08/python-homework01/
 http://example.com/2023/12/19/python%E5%AE%9E%E9%AA%8C3/
 http://example.com/2023/11/23/test/
@@ -21,8 +22,12 @@ http://example.com/tags/%E7%AC%94%E8%AE%B0/
 http://example.com/tags/python/
 http://example.com/tags/%E4%BD%9C%E4%B8%9A/
 http://example.com/tags/%E5%AE%9E%E9%AA%8C/
+http://example.com/tags/java/
+http://example.com/tags/%E6%B3%A8%E8%A7%A3/
+http://example.com/tags/%E5%8F%8D%E5%B0%84/
 http://example.com/categories/web%E5%89%8D%E7%AB%AF/
 http://example.com/categories/python/
 http://example.com/categories/web%E5%89%8D%E7%AB%AF/html/
 http://example.com/categories/python/%E4%BD%9C%E4%B8%9A/
 http://example.com/categories/python/%E5%AE%9E%E9%AA%8C/
+http://example.com/categories/java/
