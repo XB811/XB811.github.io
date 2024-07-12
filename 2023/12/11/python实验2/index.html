@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>python实验2 | X&#39;s blog</title>
+  <meta name="keywords" content=" python , 实验 ">
+  <meta name="description" content="python实验2 | X&#39;s blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="网站更新信息 2023&#x2F;11.4   重新搭建  2023&#x2F;8&#x2F;11   初步完成网站搭建">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于&amp;更新面板">
+<meta property="og:url" content="http://example.com/about/index.html">
+<meta property="og:site_name" content="X&#39;s blog">
+<meta property="og:description" content="网站更新信息 2023&#x2F;11.4   重新搭建  2023&#x2F;8&#x2F;11   初步完成网站搭建">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-08-11T08:10:54.000Z">
+<meta property="article:modified_time" content="2023-11-03T17:38:18.100Z">
+<meta property="article:author" content="X">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="icon" href="/img/avatar.jpg">
+
+<link href="/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/css/hl_theme/darcula.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="/js/iconfont.js?v=1.1.0" ></script>
+
+<meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="X's blog" type="application/atom+xml">
+</head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+
+
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/"
+   class="avatar_target">
+    <img class="avatar"
+         src="/img/avatar.jpg"/>
+</a>
+<div class="author">
+    <span>X</span>
+</div>
+
+<div class="icon">
+    
+        
+            <a title="rss"
+               href="/atom.xml"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-rss"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="github"
+               href="https://github.com/XB811"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <a title="qq"
+               href="http://wpa.qq.com/msgrd?v=3&uin=1111111111&site=qq&menu=yes"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+</div>
+
+
+
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="全部文章">全部文章
+            
+                <small>(15)</small>
+            
+        </div>
+    </li>
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="java">
+            
+            java
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="python">
+            <i class="fold iconfont icon-right"></i>
+            python
+            <small>(11)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="python&lt;---&gt;实验">
+            
+            实验
+            <small>(3)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="python&lt;---&gt;作业">
+            
+            作业
+            <small>(8)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="web前端">
+            <i class="fold iconfont icon-right"></i>
+            web前端
+            <small>(1)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="web前端&lt;---&gt;html">
+            
+            html
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+            
+            
+            
+    </div>
+    <div>
+        
+            <a class="about  hasFriend  site_url"
+               
+               href="/about">关于</a>
+        
+        <a style="width: 50%"
+                
+                                           class="friends">友链</a>
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="15">
+<input type="hidden" id="yelog_site_word_count" value="14.4k">
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        友情链接
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
+            <div class="right-title">全部文章</div>
+            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="返回"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
+            <i class="iconfont icon-tag" data-title="标签"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">大纲</div>
+            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
+        </div>
+    </div>
+
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>笔记</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>反射</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>前端</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>实验</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>注解</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>作业</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Hexo</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>html</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>java</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>python</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <div id="local-search-result">
+
+    </div>
+    
+    <nav id="title-list-nav">
+        
+        
+        <a  class="全部文章 "
+           href="/2024/04/10/hello-world/"
+           data-tag="Hexo"
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2024-04-10 12:22:13">2024/04/10</span>
+        </a>
+        
+        
+        <a  class="全部文章 java "
+           href="/2024/02/28/java%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/"
+           data-tag="java,注解,反射"
+           data-author="" >
+            <span class="post-title" title="java注解与反射">java注解与反射</span>
+            <span class="post-date" title="2024-02-28 14:54:54">2024/02/28</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/19/python%E5%AE%9E%E9%AA%8C3/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验3">python实验3</span>
+            <span class="post-date" title="2023-12-19 15:32:54">2023/12/19</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/11/python%E5%AE%9E%E9%AA%8C2/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验2">python实验2</span>
+            <span class="post-date" title="2023-12-11 13:04:14">2023/12/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/11/python%E5%AE%9E%E9%AA%8C1/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验1">python实验1</span>
+            <span class="post-date" title="2023-12-11 12:45:29">2023/12/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2023/11/23/test/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="下载功能测试">下载功能测试</span>
+            <span class="post-date" title="2023-11-23 22:06:43">2023/11/23</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/11/22/python-homework08/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业08">python作业08</span>
+            <span class="post-date" title="2023-11-22 16:23:45">2023/11/22</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/19/python-homework07/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业07">python作业07</span>
+            <span class="post-date" title="2023-10-19 09:28:57">2023/10/19</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/12/python-homework06/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业06">python作业06</span>
+            <span class="post-date" title="2023-10-12 13:12:45">2023/10/12</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/08/python-homework05/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业05">python作业05</span>
+            <span class="post-date" title="2023-10-08 22:07:48">2023/10/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/08/python-homework04/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业04">python作业04</span>
+            <span class="post-date" title="2023-10-08 18:46:44">2023/10/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/27/python-homework03/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业03">python作业03</span>
+            <span class="post-date" title="2023-09-27 20:41:14">2023/09/27</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/15/python-homework02/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业02">python作业02</span>
+            <span class="post-date" title="2023-09-15 22:19:35">2023/09/15</span>
+        </a>
+        
+        
+        <a  class="全部文章 web前端 html "
+           href="/2023/09/11/Web%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-HTML/"
+           data-tag="前端,html,笔记"
+           data-author="" >
+            <span class="post-title" title="Web程序设计笔记第二章-HTML/XHTML">Web程序设计笔记第二章-HTML/XHTML</span>
+            <span class="post-date" title="2023-09-11 11:07:12">2023/09/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/08/python-homework01/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业01">python作业01</span>
+            <span class="post-date" title="2023-09-08 23:34:52">2023/09/08</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="切换全屏 快捷键 s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post">
+    <div class="pjax">
+        <article id="post-python实验2" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">python实验2</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="python">python</a> > 
+            
+            <a  data-rel="python&lt;---&gt;实验">实验</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color2">python</a>
+            
+            <a class="color3">实验</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2023-12-11 13:59:35'>2023-12-11 13:04</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>字数:602</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%EF%BC%9A"><span class="toc-text">python网络爬虫：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%88%86%E6%9E%90%EF%BC%9A"><span class="toc-text">分析：</span></a></li></ol>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="python网络爬虫："><a href="#python网络爬虫：" class="headerlink" title="python网络爬虫："></a>python网络爬虫：</h5><p>使用python编写爬虫，爬取起点中文网主页的所有小说信息,并保存到excel表格中</p>
+<h5 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h5><p>起点中文网主页连接</p>
+<p><a target="_blank" rel="noopener" href="https://www.qidian.com/all/page1/">https://www.qidian.com/all/page1/</a></p>
+<p>爬取范围为 <code>page1</code> 到<code>page5</code> </p>
+<p>查看网页源代码可知，小说信息位于 <code>&lt;ul class=&quot;all-img-list cf&quot;&gt;</code>标签下</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211131421301.png" alt="image-20231211131421301"></p>
+<p>单个小说代码：</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211131534452.png" alt="image-20231211131534452"></p>
+<p>代码实现方法：</p>
+<p>遍历五个页面，使用<code>xpath</code>获取每个页面的<code>&lt;ul class=&quot;all-img-list cf&quot;&gt;</code>的所有数据</p>
+<p>然后在遍历<code>&lt;ul&gt;</code>中的每一个<code>&lt;li&gt;</code>（即单本小说），匹配获取相关信息</p>
+<p>代码实现：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> lxml <span class="keyword">import</span> etree</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> xlwt</span><br><span class="line">all_info_list=[]</span><br><span class="line">index=<span class="number">0</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get</span>(<span class="params">url,index</span>):</span><br><span class="line">    <span class="comment"># print(url)</span></span><br><span class="line">    html=requests.get(url)</span><br><span class="line">    <span class="comment"># print(html.text)</span></span><br><span class="line">    selector =etree.HTML(html.text)</span><br><span class="line">    <span class="comment"># 匹配&lt;ul&gt;标签</span></span><br><span class="line">    infos=selector.xpath(<span class="string">&#x27;//ul[@class=&quot;all-img-list cf&quot;]/li&#x27;</span>)</span><br><span class="line">    <span class="comment"># print(infos)</span></span><br><span class="line">    <span class="keyword">for</span> info <span class="keyword">in</span> infos:</span><br><span class="line">        title=info.xpath(<span class="string">&#x27;div[2]/h2/a/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">        <span class="comment">#小说主页跳转链接</span></span><br><span class="line">        link=info.xpath(<span class="string">&#x27;div[2]/h2/a/@href&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">        <span class="comment">#添加访问协议</span></span><br><span class="line">        link=<span class="string">&#x27;https:&#x27;</span>+link</span><br><span class="line">        <span class="comment"># print(link)</span></span><br><span class="line">        autor=info.xpath(<span class="string">&#x27;div[2]/p[1]/a[1]/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">        type1=info.xpath(<span class="string">&#x27;div[2]/p[1]/a[2]/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">        type2=info.xpath(<span class="string">&#x27;div[2]/p[1]/a[3]/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">        tag=type1+<span class="string">&#x27;.&#x27;</span>+type2</span><br><span class="line">        complete=info.xpath(<span class="string">&#x27;div[2]/p[1]/span/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">        introduce=info.xpath(<span class="string">&#x27;div[2]/p[2]/text()&#x27;</span>)[<span class="number">0</span>].strip()</span><br><span class="line"></span><br><span class="line">        <span class="comment">#从小说详情页面获取小说字数</span></span><br><span class="line">        html1=requests.get(link)</span><br><span class="line">        <span class="comment"># print(html1.text)</span></span><br><span class="line">        selector1=etree.HTML(html1.text)</span><br><span class="line">        info1=selector1.xpath(<span class="string">&#x27;//p[@class=&quot;count&quot;]/em/text()&#x27;</span>)[<span class="number">0</span>]+<span class="string">&#x27;字&#x27;</span></span><br><span class="line">        <span class="comment"># print(info1)</span></span><br><span class="line">        word=info1</span><br><span class="line"></span><br><span class="line">        <span class="comment">#最新更新章节</span></span><br><span class="line">        new=info.xpath(<span class="string">&#x27;div[2]/p[3]/span/a/text()&#x27;</span>)[<span class="number">0</span>].strip()</span><br><span class="line">        info_list=[title,link,autor,tag,complete,introduce,word,new]</span><br><span class="line">        <span class="comment"># print(info_list)</span></span><br><span class="line">        all_info_list.append(info_list)</span><br><span class="line">        <span class="comment"># time.sleep(1)</span></span><br><span class="line">        <span class="comment"># 进度条</span></span><br><span class="line">        index +=<span class="number">1</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;\r&quot;</span>, end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Progress: &#123;&#125;%: [&quot;</span>.<span class="built_in">format</span>(index), <span class="string">&quot;=&quot;</span> * (index-<span class="number">1</span>),<span class="string">&quot;&gt;&quot;</span>,<span class="string">&quot; &quot;</span>*(<span class="number">100</span>-index),<span class="string">&quot;]&quot;</span>, end=<span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__==<span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    <span class="comment"># 主页链接</span></span><br><span class="line">    urls=[<span class="string">&#x27;https://www.qidian.com/all/page&#x27;</span>+<span class="built_in">str</span>(i) <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">6</span>)]</span><br><span class="line">    <span class="keyword">for</span> url <span class="keyword">in</span> urls:</span><br><span class="line">        get(url,index)</span><br><span class="line">        index+=<span class="number">20</span><span class="comment"># 计数</span></span><br><span class="line">    <span class="comment"># excel表头</span></span><br><span class="line">    header=[<span class="string">&#x27;title&#x27;</span>,<span class="string">&#x27;link&#x27;</span>,<span class="string">&#x27;autor&#x27;</span>,<span class="string">&#x27;tag&#x27;</span>,<span class="string">&#x27;complete&#x27;</span>,<span class="string">&#x27;intorduce&#x27;</span>,<span class="string">&#x27;word&#x27;</span>,<span class="string">&#x27;new&#x27;</span>]</span><br><span class="line">    <span class="comment">#创建表格</span></span><br><span class="line">    book=xlwt.Workbook(encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line">    sheet = book.add_sheet(<span class="string">&#x27;Sheet1&#x27;</span>)</span><br><span class="line">    <span class="keyword">for</span> h <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(header)):</span><br><span class="line">        <span class="comment"># 写入表头</span></span><br><span class="line">        sheet.write(<span class="number">0</span>, h, header[h])</span><br><span class="line"></span><br><span class="line">    i = <span class="number">1</span>  <span class="comment"># 行数</span></span><br><span class="line">    <span class="keyword">for</span> <span class="built_in">list</span> <span class="keyword">in</span> all_info_list:</span><br><span class="line">        j = <span class="number">0</span>  <span class="comment"># 列数</span></span><br><span class="line">        <span class="comment"># 写入爬虫数据</span></span><br><span class="line">        <span class="keyword">for</span> data <span class="keyword">in</span> <span class="built_in">list</span>:</span><br><span class="line">            sheet.write(i, j, data)</span><br><span class="line">            j += <span class="number">1</span></span><br><span class="line">        i += <span class="number">1</span></span><br><span class="line">    <span class="comment"># 保存文件</span></span><br><span class="line">    book.save(<span class="string">&#x27;xiaoshuo.xls&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>运行截图：</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211135143638.png" alt="image-20231211135143638"></p>
+<p>最终输出的excel表格：</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211135837078.png" alt="image-20231211135837078"></p>
+<p>共计101行</p>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论 </span>
+    </div>
+</article>
+
+
+
+
+
+    <div id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="XB811/XB811.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            label="Comment"
+            crossorigin="anonymous"
+            async>
+    </script>
+</div>
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">
+    ©2017 X
+</p>
+<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+
+    </div>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+
+</body>
+<script src="/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+
+        /*高亮代码块行号*/
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 542px;
+    }
+    .nav.fullscreen {
+        margin-left: -542px;
+    }
+    .nav-left {
+        width: 120px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 492px;
+        }
+        .nav.fullscreen {
+            margin-left: -492px;
+        }
+        .nav-left {
+            width: 100px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 492px;
+            margin-left: -492px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+    .nav-right:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        background: url("https://i.loli.net/2019/07/22/5d3521411f3f169375.png");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+
+    
+</style>
+
+
+
+
+
+
+
+</html>

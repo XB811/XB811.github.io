@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>python实验1 | X&#39;s blog</title>
+  <meta name="keywords" content=" python , 实验 ">
+  <meta name="description" content="python实验1 | X&#39;s blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="网站更新信息 2023&#x2F;11.4   重新搭建  2023&#x2F;8&#x2F;11   初步完成网站搭建">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于&amp;更新面板">
+<meta property="og:url" content="http://example.com/about/index.html">
+<meta property="og:site_name" content="X&#39;s blog">
+<meta property="og:description" content="网站更新信息 2023&#x2F;11.4   重新搭建  2023&#x2F;8&#x2F;11   初步完成网站搭建">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-08-11T08:10:54.000Z">
+<meta property="article:modified_time" content="2023-11-03T17:38:18.100Z">
+<meta property="article:author" content="X">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="icon" href="/img/avatar.jpg">
+
+<link href="/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/css/hl_theme/darcula.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="/js/iconfont.js?v=1.1.0" ></script>
+
+<meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="X's blog" type="application/atom+xml">
+</head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+
+
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/"
+   class="avatar_target">
+    <img class="avatar"
+         src="/img/avatar.jpg"/>
+</a>
+<div class="author">
+    <span>X</span>
+</div>
+
+<div class="icon">
+    
+        
+            <a title="rss"
+               href="/atom.xml"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-rss"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="github"
+               href="https://github.com/XB811"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <a title="qq"
+               href="http://wpa.qq.com/msgrd?v=3&uin=1111111111&site=qq&menu=yes"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+</div>
+
+
+
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="全部文章">全部文章
+            
+                <small>(15)</small>
+            
+        </div>
+    </li>
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="java">
+            
+            java
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="python">
+            <i class="fold iconfont icon-right"></i>
+            python
+            <small>(11)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="python&lt;---&gt;实验">
+            
+            实验
+            <small>(3)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="python&lt;---&gt;作业">
+            
+            作业
+            <small>(8)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="web前端">
+            <i class="fold iconfont icon-right"></i>
+            web前端
+            <small>(1)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="web前端&lt;---&gt;html">
+            
+            html
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+            
+            
+            
+    </div>
+    <div>
+        
+            <a class="about  hasFriend  site_url"
+               
+               href="/about">关于</a>
+        
+        <a style="width: 50%"
+                
+                                           class="friends">友链</a>
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="15">
+<input type="hidden" id="yelog_site_word_count" value="14.4k">
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        友情链接
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
+            <div class="right-title">全部文章</div>
+            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="返回"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
+            <i class="iconfont icon-tag" data-title="标签"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">大纲</div>
+            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
+        </div>
+    </div>
+
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>笔记</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>反射</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>前端</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>实验</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>注解</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>作业</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Hexo</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>html</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>java</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>python</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <div id="local-search-result">
+
+    </div>
+    
+    <nav id="title-list-nav">
+        
+        
+        <a  class="全部文章 "
+           href="/2024/04/10/hello-world/"
+           data-tag="Hexo"
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2024-04-10 12:22:13">2024/04/10</span>
+        </a>
+        
+        
+        <a  class="全部文章 java "
+           href="/2024/02/28/java%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/"
+           data-tag="java,注解,反射"
+           data-author="" >
+            <span class="post-title" title="java注解与反射">java注解与反射</span>
+            <span class="post-date" title="2024-02-28 14:54:54">2024/02/28</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/19/python%E5%AE%9E%E9%AA%8C3/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验3">python实验3</span>
+            <span class="post-date" title="2023-12-19 15:32:54">2023/12/19</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/11/python%E5%AE%9E%E9%AA%8C2/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验2">python实验2</span>
+            <span class="post-date" title="2023-12-11 13:04:14">2023/12/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/11/python%E5%AE%9E%E9%AA%8C1/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验1">python实验1</span>
+            <span class="post-date" title="2023-12-11 12:45:29">2023/12/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2023/11/23/test/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="下载功能测试">下载功能测试</span>
+            <span class="post-date" title="2023-11-23 22:06:43">2023/11/23</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/11/22/python-homework08/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业08">python作业08</span>
+            <span class="post-date" title="2023-11-22 16:23:45">2023/11/22</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/19/python-homework07/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业07">python作业07</span>
+            <span class="post-date" title="2023-10-19 09:28:57">2023/10/19</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/12/python-homework06/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业06">python作业06</span>
+            <span class="post-date" title="2023-10-12 13:12:45">2023/10/12</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/08/python-homework05/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业05">python作业05</span>
+            <span class="post-date" title="2023-10-08 22:07:48">2023/10/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/08/python-homework04/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业04">python作业04</span>
+            <span class="post-date" title="2023-10-08 18:46:44">2023/10/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/27/python-homework03/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业03">python作业03</span>
+            <span class="post-date" title="2023-09-27 20:41:14">2023/09/27</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/15/python-homework02/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业02">python作业02</span>
+            <span class="post-date" title="2023-09-15 22:19:35">2023/09/15</span>
+        </a>
+        
+        
+        <a  class="全部文章 web前端 html "
+           href="/2023/09/11/Web%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-HTML/"
+           data-tag="前端,html,笔记"
+           data-author="" >
+            <span class="post-title" title="Web程序设计笔记第二章-HTML/XHTML">Web程序设计笔记第二章-HTML/XHTML</span>
+            <span class="post-date" title="2023-09-11 11:07:12">2023/09/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/08/python-homework01/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业01">python作业01</span>
+            <span class="post-date" title="2023-09-08 23:34:52">2023/09/08</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="切换全屏 快捷键 s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post">
+    <div class="pjax">
+        <article id="post-python实验1" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">python实验1</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="python">python</a> > 
+            
+            <a  data-rel="python&lt;---&gt;实验">实验</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color2">python</a>
+            
+            <a class="color3">实验</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2023-12-11 13:03:32'>2023-12-11 12:45</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>字数:1k</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E4%B8%80%EF%BC%9A%E5%88%86%E6%9E%90%E9%94%80%E5%94%AE%E6%95%B0%E6%8D%AE"><span class="toc-text">项目一：分析销售数据</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%EF%BC%9A"><span class="toc-text">题目描述：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%88%86%E6%9E%90%EF%BC%9A"><span class="toc-text">分析：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E4%BB%A3%E7%A0%81%EF%BC%9A"><span class="toc-text">实现代码：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C%EF%BC%9A"><span class="toc-text">执行结果：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E4%B8%80%EF%BC%9A%E5%88%86%E6%9E%90%E9%94%80%E5%94%AE%E6%95%B0%E6%8D%AE%EF%BC%88%E8%BF%9B%E9%98%B6%E7%89%88%EF%BC%89"><span class="toc-text">项目一：分析销售数据（进阶版）</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E7%9B%AE%E6%A0%87%EF%BC%9A"><span class="toc-text">项目目标：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%EF%BC%9A"><span class="toc-text">代码：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%EF%BC%9A"><span class="toc-text">输出：</span></a></li></ol></li></ol></li></ol>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="项目一：分析销售数据"><a href="#项目一：分析销售数据" class="headerlink" title="项目一：分析销售数据"></a>项目一：分析销售数据</h3><h5 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a>题目描述：</h5><p>假设你是一家电子产品零售公司的数据分析师。公司提供了一份包含销售数据的CSV文件， 文件名为<code>sales_data.csv</code>。数据包括产品 ID、销售日期、销售数量、销售金额等信息。你的 任务是使用 Python 中的 NumPy、Pandas 和 Matplotlib 库进行数据分析和可视化，以回答 </p>
+<p>以下问题：</p>
+<ol>
+<li><p>读取 sales_data1.csv 文件并将数据存储在一个 Pandas DataFrame 中。 </p>
+</li>
+<li><p>计算每个产品的总销售数量和总销售金额。 </p>
+</li>
+<li><p>找出销售数量最高的前 5 个产品，并绘制它们的销售数量的条形图。 </p>
+</li>
+<li><p>计算每个月的总销售金额，并绘制一个折线图展示月度销售趋势。</p>
+</li>
+</ol>
+<h5 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h5><p>使用numpy，pandas对数据进行处理，然后使用matplotlib进行绘图，实现数据可视化</p>
+<h5 id="实现代码："><a href="#实现代码：" class="headerlink" title="实现代码："></a>实现代码：</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment">#读取文件</span></span><br><span class="line">df =pd.read_csv(<span class="string">&#x27;sales_data1.csv&#x27;</span>)</span><br><span class="line"><span class="comment"># 2. 计算每个产品的总销售数量和总销售金额</span></span><br><span class="line">product_sales = df.groupby(<span class="string">&#x27;ProductID&#x27;</span>).agg(&#123;<span class="string">&#x27;Quantity&#x27;</span>: <span class="string">&#x27;sum&#x27;</span>, <span class="string">&#x27;Amount&#x27;</span>: <span class="string">&#x27;sum&#x27;</span>&#125;).reset_index()</span><br><span class="line"><span class="comment"># print(product_sales)</span></span><br><span class="line"><span class="comment"># 3. 找出销售数量最高的前 5 个产品，并绘制销售数量的条形图</span></span><br><span class="line">top_products = product_sales.nlargest(<span class="number">5</span>, <span class="string">&#x27;Quantity&#x27;</span>)</span><br><span class="line">plt.bar(top_products[<span class="string">&#x27;ProductID&#x27;</span>], top_products[<span class="string">&#x27;Quantity&#x27;</span>])</span><br><span class="line">plt.xlabel(<span class="string">&#x27;Product ID&#x27;</span>)</span><br><span class="line">plt.ylabel(<span class="string">&#x27;Total Sales Quantity&#x27;</span>)</span><br><span class="line">plt.title(<span class="string">&#x27;Top 5 Products by Sales Quantity&#x27;</span>)</span><br><span class="line">plt.show()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 4. 计算每个月的总销售金额，并绘制一个折线图展示月度销售趋势</span></span><br><span class="line">df[<span class="string">&#x27;SalesMonth&#x27;</span>] = pd.to_datetime(df[<span class="string">&#x27;SalesDate&#x27;</span>]).dt.to_period(<span class="string">&#x27;M&#x27;</span>)</span><br><span class="line">monthly_sales = df.groupby(<span class="string">&#x27;SalesMonth&#x27;</span>)[<span class="string">&#x27;Amount&#x27;</span>].<span class="built_in">sum</span>().reset_index()</span><br><span class="line">plt.plot(monthly_sales.index,monthly_sales[<span class="string">&#x27;Amount&#x27;</span>])</span><br><span class="line">plt.xlabel(<span class="string">&#x27;Month&#x27;</span>)</span><br><span class="line">plt.ylabel(<span class="string">&#x27;Total Sales Amount&#x27;</span>)</span><br><span class="line">plt.title(<span class="string">&#x27;Monthly Sales Trend&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+<h5 id="执行结果："><a href="#执行结果：" class="headerlink" title="执行结果："></a>执行结果：</h5><p>销售数量条形图：</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211125424963.png" alt="image-20231211125424963"></p>
+<p>月度销售趋势</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211125446025.png" alt="image-20231211125446025"></p>
+<h3 id="项目一：分析销售数据（进阶版）"><a href="#项目一：分析销售数据（进阶版）" class="headerlink" title="项目一：分析销售数据（进阶版）"></a>项目一：分析销售数据（进阶版）</h3><h5 id="项目目标："><a href="#项目目标：" class="headerlink" title="项目目标："></a>项目目标：</h5><p>项目步骤：</p>
+<ol>
+<li><p>数据准备： - 提供了一个虚拟的销售数据的 csv 文件。 </p>
+</li>
+<li><p>数据加载与清理： - 使用 Pandas 加载 CSV 文件。 - 清理数据，处理缺失值、异常值等。 </p>
+</li>
+<li><p>基本统计分析： - 使用 Numpy 和 Pandas 进行基本的统计分析，如总销售额、平均销售数量等。 </p>
+</li>
+<li><p>销售趋势分析： - 利用 Matplotlib 绘制销售趋势图，展示销售随时间的变化。 </p>
+</li>
+<li><p>产品分析： - 利用 Pandas 和 Numpy 找出最畅销的产品，最畅销的地区等。 - 利用 Matplotlib 绘制产品销售排行榜。</p>
+</li>
+<li><p>地区分析： - 使用 Matplotlib 绘制销售地区的分布图，了解销售的地域差异。 </p>
+</li>
+<li><p>高级统计分析（可选）： - 利用 Scipy 进行更高级的统计分析，如假设检验、回归分析等。</p>
+</li>
+</ol>
+<h5 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment">#读取文件</span></span><br><span class="line">df=pd.read_csv(<span class="string">&#x27;sales_data2.csv&#x27;</span>)</span><br><span class="line">df.dropna(inplace=<span class="literal">True</span>)</span><br><span class="line"><span class="comment"># 3. 基本统计分析</span></span><br><span class="line">total_sales = df[<span class="string">&#x27;SalesQuantity&#x27;</span>] * df[<span class="string">&#x27;SalesPrice&#x27;</span>]</span><br><span class="line">average_sales_quantity = df[<span class="string">&#x27;SalesQuantity&#x27;</span>].mean()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&#x27;Total Sales: <span class="subst">&#123;total_sales.<span class="built_in">sum</span>()&#125;</span>&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&#x27;Average Sales Quantity: <span class="subst">&#123;average_sales_quantity&#125;</span>&#x27;</span>)</span><br><span class="line"><span class="comment"># 4. 销售趋势分析</span></span><br><span class="line">df[<span class="string">&#x27;SalesDate&#x27;</span>] = pd.to_datetime(df[<span class="string">&#x27;SalesDate&#x27;</span>])</span><br><span class="line">df.set_index(<span class="string">&#x27;SalesDate&#x27;</span>, inplace=<span class="literal">True</span>)</span><br><span class="line">df.resample(<span class="string">&#x27;M&#x27;</span>).<span class="built_in">sum</span>()[<span class="string">&#x27;SalesQuantity&#x27;</span>].plot()</span><br><span class="line">plt.title(<span class="string">&#x27;Sales Trend Over Time&#x27;</span>)</span><br><span class="line">plt.xlabel(<span class="string">&#x27;Month&#x27;</span>)</span><br><span class="line">plt.ylabel(<span class="string">&#x27;Sales Quantity&#x27;</span>)</span><br><span class="line">plt.show()</span><br><span class="line"><span class="comment">#5. 产品分析</span></span><br><span class="line"><span class="comment"># 最畅销产品和最畅销地区</span></span><br><span class="line">best_selling_product = df.groupby(<span class="string">&#x27;ProductID&#x27;</span>)[<span class="string">&#x27;SalesQuantity&#x27;</span>].<span class="built_in">sum</span>().idxmax()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&#x27;Best Selling Product: <span class="subst">&#123;best_selling_product&#125;</span>&#x27;</span>)</span><br><span class="line">best_selling_Region=df.groupby(<span class="string">&#x27;Region&#x27;</span>)[<span class="string">&#x27;SalesQuantity&#x27;</span>].<span class="built_in">sum</span>().idxmax()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&#x27;Best Selling Region: <span class="subst">&#123;best_selling_Region&#125;</span>&#x27;</span>)</span><br><span class="line"><span class="comment"># 产品销售排行榜</span></span><br><span class="line">product_ranking =df.groupby(<span class="string">&#x27;ProductID&#x27;</span>)[<span class="string">&#x27;SalesQuantity&#x27;</span>].<span class="built_in">sum</span>().sort_values(ascending=<span class="literal">False</span>)</span><br><span class="line">product_ranking.plot(kind=<span class="string">&#x27;bar&#x27;</span>, rot=<span class="number">0</span>)</span><br><span class="line">plt.title(<span class="string">&#x27;Product Sales Ranking&#x27;</span>)</span><br><span class="line">plt.xlabel(<span class="string">&#x27;Product ID&#x27;</span>)</span><br><span class="line">plt.ylabel(<span class="string">&#x27;Sales Quantity&#x27;</span>)</span><br><span class="line">plt.show()</span><br><span class="line"><span class="comment"># 6. 地区分析</span></span><br><span class="line"><span class="comment"># 销售地区分布图</span></span><br><span class="line">region_distribution = df[<span class="string">&#x27;Region&#x27;</span>].value_counts()</span><br><span class="line">region_distribution.plot(kind=<span class="string">&#x27;pie&#x27;</span>, autopct=<span class="string">&#x27;%1.1f%%&#x27;</span>)</span><br><span class="line">plt.title(<span class="string">&#x27;Sales Distribution by Region&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+<h5 id="输出："><a href="#输出：" class="headerlink" title="输出："></a>输出：</h5><p>总销售额、平均销售数量，最畅销的产品，最畅销的地区</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211125949582.png" alt="image-20231211125949582"></p>
+<p>   销售趋势分析：</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211130118986.png" alt="image-20231211130118986"></p>
+<p>产品销量排行榜：</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211130211333.png" alt="image-20231211130211333"><br>销售地区分布图：</p>
+<p><img src="http://qnimg.xblog1.top/typora/image-20231211130255372.png" alt="image-20231211130255372"></p>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论 </span>
+    </div>
+</article>
+
+
+
+
+
+    <div id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="XB811/XB811.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            label="Comment"
+            crossorigin="anonymous"
+            async>
+    </script>
+</div>
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">
+    ©2017 X
+</p>
+<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+
+    </div>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+
+</body>
+<script src="/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+
+        /*高亮代码块行号*/
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 542px;
+    }
+    .nav.fullscreen {
+        margin-left: -542px;
+    }
+    .nav-left {
+        width: 120px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 492px;
+        }
+        .nav.fullscreen {
+            margin-left: -492px;
+        }
+        .nav-left {
+            width: 100px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 492px;
+            margin-left: -492px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+    .nav-right:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        background: url("https://i.loli.net/2019/07/22/5d3521411f3f169375.png");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+
+    
+</style>
+
+
+
+
+
+
+
+</html>
