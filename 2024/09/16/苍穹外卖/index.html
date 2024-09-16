@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>苍穹外卖 | X&#39;s blog</title>
+  <meta name="keywords" content=" java , springboot , redis , jwt , springTask , websocket ">
+  <meta name="description" content="苍穹外卖 | X&#39;s blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="网站更新信息 2023&#x2F;11.4   重新搭建  2023&#x2F;8&#x2F;11   初步完成网站搭建">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于&amp;更新面板">
+<meta property="og:url" content="http://example.com/about/index.html">
+<meta property="og:site_name" content="X&#39;s blog">
+<meta property="og:description" content="网站更新信息 2023&#x2F;11.4   重新搭建  2023&#x2F;8&#x2F;11   初步完成网站搭建">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-08-11T08:10:54.000Z">
+<meta property="article:modified_time" content="2023-11-03T17:38:18.100Z">
+<meta property="article:author" content="X">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="icon" href="/img/avatar.jpg">
+
+<link href="/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/css/hl_theme/darcula.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="/js/iconfont.js?v=1.1.0" ></script>
+
+<meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="X's blog" type="application/atom+xml">
+</head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+
+
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/"
+   class="avatar_target">
+    <img class="avatar"
+         src="/img/avatar.jpg"/>
+</a>
+<div class="author">
+    <span>X</span>
+</div>
+
+<div class="icon">
+    
+        
+            <a title="rss"
+               href="/atom.xml"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-rss"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="github"
+               href="https://github.com/XB811"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <a title="qq"
+               href="http://wpa.qq.com/msgrd?v=3&uin=1111111111&site=qq&menu=yes"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+</div>
+
+
+
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="全部文章">全部文章
+            
+                <small>(16)</small>
+            
+        </div>
+    </li>
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="java">
+            
+            java
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="python">
+            <i class="fold iconfont icon-right"></i>
+            python
+            <small>(11)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="python&lt;---&gt;实验">
+            
+            实验
+            <small>(3)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="python&lt;---&gt;作业">
+            
+            作业
+            <small>(8)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="springboot">
+            
+            springboot
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="web前端">
+            <i class="fold iconfont icon-right"></i>
+            web前端
+            <small>(1)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="web前端&lt;---&gt;html">
+            
+            html
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+            
+            
+            
+    </div>
+    <div>
+        
+            <a class="about  hasFriend  site_url"
+               
+               href="/about">关于</a>
+        
+        <a style="width: 50%"
+                
+                                           class="friends">友链</a>
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="16">
+<input type="hidden" id="yelog_site_word_count" value="14.9k">
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        友情链接
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
+            <div class="right-title">全部文章</div>
+            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="返回"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
+            <i class="iconfont icon-tag" data-title="标签"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">大纲</div>
+            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
+        </div>
+    </div>
+
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>笔记</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>反射</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>前端</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>实验</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>注解</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>作业</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Hexo</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>html</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>java</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>jwt</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>python</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>redis</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>springboot</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>springTask</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>websocket</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <div id="local-search-result">
+
+    </div>
+    
+    <nav id="title-list-nav">
+        
+        
+        <a  class="全部文章 springboot "
+           href="/2024/09/16/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96/"
+           data-tag="java,springboot,redis,jwt,springTask,websocket"
+           data-author="" >
+            <span class="post-title" title="苍穹外卖">苍穹外卖</span>
+            <span class="post-date" title="2024-09-16 19:04:50">2024/09/16</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2024/04/10/hello-world/"
+           data-tag="Hexo"
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2024-04-10 12:22:13">2024/04/10</span>
+        </a>
+        
+        
+        <a  class="全部文章 java "
+           href="/2024/02/28/java%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/"
+           data-tag="java,注解,反射"
+           data-author="" >
+            <span class="post-title" title="java注解与反射">java注解与反射</span>
+            <span class="post-date" title="2024-02-28 14:54:54">2024/02/28</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/19/python%E5%AE%9E%E9%AA%8C3/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验3">python实验3</span>
+            <span class="post-date" title="2023-12-19 15:32:54">2023/12/19</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/11/python%E5%AE%9E%E9%AA%8C2/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验2">python实验2</span>
+            <span class="post-date" title="2023-12-11 13:04:14">2023/12/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 实验 "
+           href="/2023/12/11/python%E5%AE%9E%E9%AA%8C1/"
+           data-tag="python,实验"
+           data-author="" >
+            <span class="post-title" title="python实验1">python实验1</span>
+            <span class="post-date" title="2023-12-11 12:45:29">2023/12/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 "
+           href="/2023/11/23/test/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="下载功能测试">下载功能测试</span>
+            <span class="post-date" title="2023-11-23 22:06:43">2023/11/23</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/11/22/python-homework08/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业08">python作业08</span>
+            <span class="post-date" title="2023-11-22 16:23:45">2023/11/22</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/19/python-homework07/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业07">python作业07</span>
+            <span class="post-date" title="2023-10-19 09:28:57">2023/10/19</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/12/python-homework06/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业06">python作业06</span>
+            <span class="post-date" title="2023-10-12 13:12:45">2023/10/12</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/08/python-homework05/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业05">python作业05</span>
+            <span class="post-date" title="2023-10-08 22:07:48">2023/10/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/10/08/python-homework04/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业04">python作业04</span>
+            <span class="post-date" title="2023-10-08 18:46:44">2023/10/08</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/27/python-homework03/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业03">python作业03</span>
+            <span class="post-date" title="2023-09-27 20:41:14">2023/09/27</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/15/python-homework02/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业02">python作业02</span>
+            <span class="post-date" title="2023-09-15 22:19:35">2023/09/15</span>
+        </a>
+        
+        
+        <a  class="全部文章 web前端 html "
+           href="/2023/09/11/Web%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-HTML/"
+           data-tag="前端,html,笔记"
+           data-author="" >
+            <span class="post-title" title="Web程序设计笔记第二章-HTML/XHTML">Web程序设计笔记第二章-HTML/XHTML</span>
+            <span class="post-date" title="2023-09-11 11:07:12">2023/09/11</span>
+        </a>
+        
+        
+        <a  class="全部文章 python 作业 "
+           href="/2023/09/08/python-homework01/"
+           data-tag="python,作业"
+           data-author="" >
+            <span class="post-title" title="python作业01">python作业01</span>
+            <span class="post-date" title="2023-09-08 23:34:52">2023/09/08</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="切换全屏 快捷键 s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post">
+    <div class="pjax">
+        <article id="post-苍穹外卖" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">苍穹外卖</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="springboot">springboot</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color5">java</a>
+            
+            <a class="color1">springboot</a>
+            
+            <a class="color1">redis</a>
+            
+            <a class="color4">jwt</a>
+            
+            <a class="color1">springTask</a>
+            
+            <a class="color5">websocket</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2024-09-16 19:16:13'>2024-09-16 19:04</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>字数:517</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>这是一款<strong>餐厅定制</strong>的软件产品，分为管理端和用户端，管理端供商家也就是餐厅使用，餐饮企业可以通过员工、菜品、套餐和订单，通过工作台、数据统计分析经营数据。用户端是给点餐的顾客使用的，结合了微信小程序，提供在线浏览菜品和套餐、添加购物车、下单和支付等功能。</p>
+<p>文件结构</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br></pre></td><td class="code"><pre><span class="line">sky-take-out</span><br><span class="line">├─ pom.xml</span><br><span class="line">├─ README.md</span><br><span class="line">├─ sky-server</span><br><span class="line">│  ├─ pom.xml</span><br><span class="line">│  ├─ sky-server.iml</span><br><span class="line">│  └─ src</span><br><span class="line">│     ├─ test</span><br><span class="line">│     │  └─ java</span><br><span class="line">│     │     └─ com</span><br><span class="line">│     │        └─ sky</span><br><span class="line">│     │           └─ test</span><br><span class="line">│     │              └─ SpringDataRedisTest.java</span><br><span class="line">│     └─ main</span><br><span class="line">│        ├─ resources</span><br><span class="line">│        │  ├─ application-dev.yml</span><br><span class="line">│        │  ├─ application-prod.yml</span><br><span class="line">│        │  ├─ application.yml</span><br><span class="line">│        │  ├─ template</span><br><span class="line">│        │  │  └─ 运营数据报表模板.xlsx</span><br><span class="line">│        │  └─ mapper</span><br><span class="line">│        │     ├─ AddressBookMapper.xml</span><br><span class="line">│        │     ├─ CategoryMapper.xml</span><br><span class="line">│        │     ├─ DishFlavorMapper.xml</span><br><span class="line">│        │     ├─ DishMapper.xml</span><br><span class="line">│        │     ├─ EmployeeMapper.xml</span><br><span class="line">│        │     ├─ OrderDetailMapper.xml</span><br><span class="line">│        │     ├─ OrderMapper.xml</span><br><span class="line">│        │     ├─ SetmealDishMapper.xml</span><br><span class="line">│        │     ├─ SetmealMapper.xml</span><br><span class="line">│        │     ├─ ShoppingCartMapper.xml</span><br><span class="line">│        │     └─ UserMapper.xml</span><br><span class="line">│        └─ java</span><br><span class="line">│           └─ com</span><br><span class="line">│              └─ sky</span><br><span class="line">│                 ├─ SkyApplication.java</span><br><span class="line">│                 ├─ websocket</span><br><span class="line">│                 │  └─ WebSocketServer.java</span><br><span class="line">│                 ├─ task</span><br><span class="line">│                 │  ├─ OrderTask.java</span><br><span class="line">│                 │  └─ WebSocketTask.java</span><br><span class="line">│                 ├─ service</span><br><span class="line">│                 │  ├─ AddressBookService.java</span><br><span class="line">│                 │  ├─ CategoryService.java</span><br><span class="line">│                 │  ├─ DishService.java</span><br><span class="line">│                 │  ├─ EmployeeService.java</span><br><span class="line">│                 │  ├─ OrderService.java</span><br><span class="line">│                 │  ├─ ReportService.java</span><br><span class="line">│                 │  ├─ SetmealService.java</span><br><span class="line">│                 │  ├─ ShoppingCartService.java</span><br><span class="line">│                 │  ├─ UserService.java</span><br><span class="line">│                 │  ├─ WorkspaceService.java</span><br><span class="line">│                 │  └─ impl</span><br><span class="line">│                 │     ├─ AddressBookServiceImpl.java</span><br><span class="line">│                 │     ├─ CategoryServiceImpl.java</span><br><span class="line">│                 │     ├─ DishServiceImpl.java</span><br><span class="line">│                 │     ├─ EmployeeServiceImpl.java</span><br><span class="line">│                 │     ├─ OrderServiceImpl.java</span><br><span class="line">│                 │     ├─ ReportServiceImpl.java</span><br><span class="line">│                 │     ├─ SetmealServiceImpl.java</span><br><span class="line">│                 │     ├─ ShoppingCartServiceImpl.java</span><br><span class="line">│                 │     ├─ UserServiceImpl.java</span><br><span class="line">│                 │     └─ WorkspaceServiceImpl.java</span><br><span class="line">│                 ├─ mapper</span><br><span class="line">│                 │  ├─ AddressBookMapper.java</span><br><span class="line">│                 │  ├─ CategoryMapper.java</span><br><span class="line">│                 │  ├─ DishFlavorMapper.java</span><br><span class="line">│                 │  ├─ DishMapper.java</span><br><span class="line">│                 │  ├─ EmployeeMapper.java</span><br><span class="line">│                 │  ├─ OrderDetailMapper.java</span><br><span class="line">│                 │  ├─ OrderMapper.java</span><br><span class="line">│                 │  ├─ SetmealDishMapper.java</span><br><span class="line">│                 │  ├─ SetmealMapper.java</span><br><span class="line">│                 │  ├─ ShoppingCartMapper.java</span><br><span class="line">│                 │  └─ UserMapper.java</span><br><span class="line">│                 ├─ interceptor</span><br><span class="line">│                 │  ├─ JwtTokenAdminInterceptor.java</span><br><span class="line">│                 │  └─ JwtTokenUserInterceptor.java</span><br><span class="line">│                 ├─ handler</span><br><span class="line">│                 │  └─ GlobalExceptionHandler.java</span><br><span class="line">│                 ├─ controller</span><br><span class="line">│                 │  ├─ user</span><br><span class="line">│                 │  │  ├─ AddressBookController.java</span><br><span class="line">│                 │  │  ├─ CategoryController.java</span><br><span class="line">│                 │  │  ├─ DishController.java</span><br><span class="line">│                 │  │  ├─ OrderController.java</span><br><span class="line">│                 │  │  ├─ SetmealController.java</span><br><span class="line">│                 │  │  ├─ ShopController.java</span><br><span class="line">│                 │  │  ├─ ShoppingCartController.java</span><br><span class="line">│                 │  │  └─ UserController.java</span><br><span class="line">│                 │  ├─ notify</span><br><span class="line">│                 │  │  └─ PayNotifyController.java</span><br><span class="line">│                 │  └─ admin</span><br><span class="line">│                 │     ├─ CategoryController.java</span><br><span class="line">│                 │     ├─ CommonController.java</span><br><span class="line">│                 │     ├─ DishController.java</span><br><span class="line">│                 │     ├─ EmployeeController.java</span><br><span class="line">│                 │     ├─ OrderController.java</span><br><span class="line">│                 │     ├─ ReportController.java</span><br><span class="line">│                 │     ├─ SetmealController.java</span><br><span class="line">│                 │     ├─ ShopController.java</span><br><span class="line">│                 │     └─ WorkSpaceController.java</span><br><span class="line">│                 ├─ config</span><br><span class="line">│                 │  ├─ OssConfiguration.java</span><br><span class="line">│                 │  ├─ RedisConfiguration.java</span><br><span class="line">│                 │  ├─ WebMvcConfiguration.java</span><br><span class="line">│                 │  └─ WebSocketConfiguration.java</span><br><span class="line">│                 ├─ aspect</span><br><span class="line">│                 │  └─ AutoFillAspect.java</span><br><span class="line">│                 └─ annotation</span><br><span class="line">│                    └─ AutoFill.java</span><br><span class="line">├─ sky-pojo</span><br><span class="line">│  ├─ pom.xml</span><br><span class="line">│  ├─ sky-pojo.iml</span><br><span class="line">│  └─ src</span><br><span class="line">│     └─ main</span><br><span class="line">│        └─ java</span><br><span class="line">│           └─ com</span><br><span class="line">│              └─ sky</span><br><span class="line">│                 ├─ vo</span><br><span class="line">│                 │  ├─ BusinessDataVO.java</span><br><span class="line">│                 │  ├─ DishItemVO.java</span><br><span class="line">│                 │  ├─ DishOverViewVO.java</span><br><span class="line">│                 │  ├─ DishVO.java</span><br><span class="line">│                 │  ├─ EmployeeLoginVO.java</span><br><span class="line">│                 │  ├─ OrderOverViewVO.java</span><br><span class="line">│                 │  ├─ OrderPaymentVO.java</span><br><span class="line">│                 │  ├─ OrderReportVO.java</span><br><span class="line">│                 │  ├─ OrderStatisticsVO.java</span><br><span class="line">│                 │  ├─ OrderSubmitVO.java</span><br><span class="line">│                 │  ├─ OrderVO.java</span><br><span class="line">│                 │  ├─ SalesTop10ReportVO.java</span><br><span class="line">│                 │  ├─ SetmealOverViewVO.java</span><br><span class="line">│                 │  ├─ SetmealVO.java</span><br><span class="line">│                 │  ├─ TurnoverReportVO.java</span><br><span class="line">│                 │  ├─ UserLoginVO.java</span><br><span class="line">│                 │  └─ UserReportVO.java</span><br><span class="line">│                 ├─ entity</span><br><span class="line">│                 │  ├─ AddressBook.java</span><br><span class="line">│                 │  ├─ Category.java</span><br><span class="line">│                 │  ├─ Dish.java</span><br><span class="line">│                 │  ├─ DishFlavor.java</span><br><span class="line">│                 │  ├─ Employee.java</span><br><span class="line">│                 │  ├─ OrderDetail.java</span><br><span class="line">│                 │  ├─ Orders.java</span><br><span class="line">│                 │  ├─ Setmeal.java</span><br><span class="line">│                 │  ├─ SetmealDish.java</span><br><span class="line">│                 │  ├─ ShoppingCart.java</span><br><span class="line">│                 │  └─ User.java</span><br><span class="line">│                 └─ dto</span><br><span class="line">│                    ├─ CategoryDTO.java</span><br><span class="line">│                    ├─ CategoryPageQueryDTO.java</span><br><span class="line">│                    ├─ DataOverViewQueryDTO.java</span><br><span class="line">│                    ├─ DishDTO.java</span><br><span class="line">│                    ├─ DishPageQueryDTO.java</span><br><span class="line">│                    ├─ EmployeeDTO.java</span><br><span class="line">│                    ├─ EmployeeLoginDTO.java</span><br><span class="line">│                    ├─ EmployeePageQueryDTO.java</span><br><span class="line">│                    ├─ GoodsSalesDTO.java</span><br><span class="line">│                    ├─ OrdersCancelDTO.java</span><br><span class="line">│                    ├─ OrdersConfirmDTO.java</span><br><span class="line">│                    ├─ OrdersDTO.java</span><br><span class="line">│                    ├─ OrdersPageQueryDTO.java</span><br><span class="line">│                    ├─ OrdersPaymentDTO.java</span><br><span class="line">│                    ├─ OrdersRejectionDTO.java</span><br><span class="line">│                    ├─ OrdersSubmitDTO.java</span><br><span class="line">│                    ├─ PasswordEditDTO.java</span><br><span class="line">│                    ├─ SetmealDTO.java</span><br><span class="line">│                    ├─ SetmealPageQueryDTO.java</span><br><span class="line">│                    ├─ ShoppingCartDTO.java</span><br><span class="line">│                    └─ UserLoginDTO.java</span><br><span class="line">└─ sky-common</span><br><span class="line">   ├─ pom.xml</span><br><span class="line">   ├─ sky-common.iml</span><br><span class="line">   └─ src</span><br><span class="line">      └─ main</span><br><span class="line">         └─ java</span><br><span class="line">            └─ com</span><br><span class="line">               └─ sky</span><br><span class="line">                  ├─ utils</span><br><span class="line">                  │  ├─ AliOssUtil.java</span><br><span class="line">                  │  ├─ HttpClientUtil.java</span><br><span class="line">                  │  ├─ JwtUtil.java</span><br><span class="line">                  │  ├─ QiNiuOSSUtil.java</span><br><span class="line">                  │  └─ WeChatPayUtil.java</span><br><span class="line">                  ├─ result</span><br><span class="line">                  │  ├─ PageResult.java</span><br><span class="line">                  │  └─ Result.java</span><br><span class="line">                  ├─ properties</span><br><span class="line">                  │  ├─ AliOssProperties.java</span><br><span class="line">                  │  ├─ JwtProperties.java</span><br><span class="line">                  │  ├─ QiNiuOssProperties.java</span><br><span class="line">                  │  └─ WeChatProperties.java</span><br><span class="line">                  ├─ json</span><br><span class="line">                  │  └─ JacksonObjectMapper.java</span><br><span class="line">                  ├─ exception</span><br><span class="line">                  │  ├─ AccountLockedException.java</span><br><span class="line">                  │  ├─ AccountNotFoundException.java</span><br><span class="line">                  │  ├─ AddressBookBusinessException.java</span><br><span class="line">                  │  ├─ BaseException.java</span><br><span class="line">                  │  ├─ DeletionNotAllowedException.java</span><br><span class="line">                  │  ├─ LoginFailedException.java</span><br><span class="line">                  │  ├─ OrderBusinessException.java</span><br><span class="line">                  │  ├─ PasswordEditFailedException.java</span><br><span class="line">                  │  ├─ PasswordErrorException.java</span><br><span class="line">                  │  ├─ SetmealEnableFailedException.java</span><br><span class="line">                  │  ├─ ShoppingCartBusinessException.java</span><br><span class="line">                  │  └─ UserNotLoginException.java</span><br><span class="line">                  ├─ enumeration</span><br><span class="line">                  │  └─ OperationType.java</span><br><span class="line">                  ├─ context</span><br><span class="line">                  │  └─ BaseContext.java</span><br><span class="line">                  └─ constant</span><br><span class="line">                     ├─ AutoFillConstant.java</span><br><span class="line">                     ├─ JwtClaimsConstant.java</span><br><span class="line">                     ├─ MessageConstant.java</span><br><span class="line">                     ├─ PasswordConstant.java</span><br><span class="line">                     └─ StatusConstant.java</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论 </span>
+    </div>
+</article>
+
+
+
+
+
+    <div id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="XB811/XB811.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            label="Comment"
+            crossorigin="anonymous"
+            async>
+    </script>
+</div>
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">
+    ©2017 X
+</p>
+<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+
+    </div>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+
+</body>
+<script src="/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+
+        /*高亮代码块行号*/
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 542px;
+    }
+    .nav.fullscreen {
+        margin-left: -542px;
+    }
+    .nav-left {
+        width: 120px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 492px;
+        }
+        .nav.fullscreen {
+            margin-left: -492px;
+        }
+        .nav-left {
+            width: 100px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 492px;
+            margin-left: -492px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+    .nav-right:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        background: url("https://i.loli.net/2019/07/22/5d3521411f3f169375.png");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+
+    
+</style>
+
+
+
+
+
+
+
+</html>
